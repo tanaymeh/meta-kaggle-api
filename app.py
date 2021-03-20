@@ -10,10 +10,13 @@ def home():
         with open("ranks.json", "w") as f:
             json.dump(data, f)
         return "Request Sent Successfully!"
-    else:
+    elif request.method == 'GET':
         with open("ranks.json", "r") as f:
             data = json.load(f)
         return jsonify(data)
     return "Work done!"
+    else:
+        return f"""Given request Method: {request.method} is not supported.
+        \nExpected, 'GET' or 'POST'"""
 
 app.run()
