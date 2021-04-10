@@ -4,7 +4,7 @@ A little API I am building using flask to synchronize my kaggle achievements and
 
 Stack I am using:
 
-* Flask
+* FastAPI
 * Kaggle API
 * Microsoft Azure Web Services (for deployement)
 * Wakatime API - Tracking my progress
