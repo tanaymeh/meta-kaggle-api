@@ -7,4 +7,3 @@ Stack I am using:
 * FastAPI
 * Kaggle API
 * Microsoft Azure Web Services (for deployement)
-* Wakatime API - Tracking my progress
