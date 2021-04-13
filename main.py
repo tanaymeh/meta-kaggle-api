@@ -2,7 +2,7 @@ import json
 from schemas import RequestModel
 from fastapi import FastAPI, Request
 
-JSON_FILE_NAME = 'ranks.json'
+JSON_FILE_NAME = "ranks.json"
 
 app = FastAPI()
 
